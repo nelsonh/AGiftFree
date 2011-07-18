@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>AGiftFree</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>AGiftFree</key>
+		<dict>
+			<key>NewGiftList</key>
+			<data>
+			NaGyibV2D8AGFHsxt9jhDaSPNQDv4jcj10CBmbK5w7s=
+			</data>
+			<key>SenderList</key>
+			<data>
+			Fz28WatzfEkj8aVqJGInbopl8G/OL1+/z7gmc8ey4rs=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>
