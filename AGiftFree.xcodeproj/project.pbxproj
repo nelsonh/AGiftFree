@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A62B0C713E13ED800742E25 /* TableBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A62B0C613E13ED800742E25 /* TableBackground1.png */; };
 		1D3623260D0F684500981E51 /* AGiftFreeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AGiftFreeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -266,6 +267,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A62B0C613E13ED800742E25 /* TableBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableBackground1.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AGiftFreeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGiftFreeAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AGiftFreeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGiftFreeAppDelegate.m; sourceTree = "<group>"; };
@@ -669,6 +671,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1A62B0C513E13E9D00742E25 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1A62B0C613E13ED800742E25 /* TableBackground1.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
@@ -696,6 +706,7 @@
 			isa = PBXGroup;
 			children = (
 				52CE2853139872B1002F342C /* wLoveHeartbox.mp4 */,
+				1A62B0C513E13E9D00742E25 /* New Group */,
 				52D089AC138A40CF0052B784 /* other */,
 				52D0898F138A3FFB0052B784 /* SepLine */,
 				52B5F7E713824C6D00B70B9F /* Hint */,
@@ -1736,6 +1747,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AGiftFree" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -1922,6 +1936,7 @@
 				52D08F2B138CDEAD0052B784 /* pan.png in Resources */,
 				52C598EE13948AFD00A9C1C2 /* allow.png in Resources */,
 				52CE2854139872B1002F342C /* wLoveHeartbox.mp4 in Resources */,
+				1A62B0C713E13ED800742E25 /* TableBackground1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2027,9 +2042,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Desktop/Proj/AGift/AGiftFree/Entitlements.plist";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Hung (C466W8TM8M)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nelson Hung (C466W8TM8M)";
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/AGiftFree/";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guan-Yu Chen (K55UQSXAV7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guan-Yu Chen (K55UQSXAV7)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2037,8 +2052,8 @@
 				GCC_PREFIX_HEADER = AGiftFree_Prefix.pch;
 				INFOPLIST_FILE = "AGiftFree-Info.plist";
 				PRODUCT_NAME = AGiftFree;
-				PROVISIONING_PROFILE = "517D7894-2952-4C6C-AE2A-8EBA745548F0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "517D7894-2952-4C6C-AE2A-8EBA745548F0";
+				PROVISIONING_PROFILE = "81B86E22-B09E-40F8-BA06-E72172CC59CD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81B86E22-B09E-40F8-BA06-E72172CC59CD";
 			};
 			name = Debug;
 		};
@@ -2063,6 +2078,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: ASquare LLC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASquare LLC";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
@@ -2093,16 +2109,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nelson Hung (C466W8TM8M)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nelson Hung (C466W8TM8M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guan-Yu Chen (K55UQSXAV7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guan-Yu Chen (K55UQSXAV7)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "517D7894-2952-4C6C-AE2A-8EBA745548F0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "517D7894-2952-4C6C-AE2A-8EBA745548F0";
+				PROVISIONING_PROFILE = "81B86E22-B09E-40F8-BA06-E72172CC59CD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81B86E22-B09E-40F8-BA06-E72172CC59CD";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2113,6 +2130,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
